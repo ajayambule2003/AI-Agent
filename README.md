@@ -17,3 +17,10 @@ AI-Agent is an intelligent system designed to perform tasks autonomously using m
 
   
 --WORKING 
+
+ai_agent/
+│
+├── agent.py           # Main AI agent logic
+├── memory.py          # Memory system to store past interactions
+├── utils.py           # Utility functions (e.g., math, jokes)
+└── main.py            # Entry point to run the agent

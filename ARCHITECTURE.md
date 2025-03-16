@@ -208,7 +208,7 @@ Having a persistent log of agent states is useful for:
 - Auditing and debugging agent behavior
 - Resuming from interruptions or failures
 
-## Services
+## Services 
 
 aetherAI integrates with external services to augment its capabilities:
 
@@ -229,7 +229,7 @@ Integrations are done in a modular way so that new services can be added easily.
 
 ## Utilities  
 
-Devika makes use of several utility modules to support its functioning:
+AetherAI makes use of several utility modules to support its functioning: 
 
 - `Config`: Loads and provides access to configuration settings (API keys, folder paths etc.) 
 - `Logger`: Sets up logging to console and file, with support for log levels and colors

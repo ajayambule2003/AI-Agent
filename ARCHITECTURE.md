@@ -228,8 +228,9 @@ This allows aetherAI to perform actions like:
 Integrations are done in a modular way so that new services can be added easily.
 
 ## Utilities  
-
-AetherAI makes use of several utility modules to support its functioning: 
+ 
+ 
+AetherAI makes use of several utility modules to support its functioning:  
 
 - `Config`: Loads and provides access to configuration settings (API keys, folder paths etc.) 
 - `Logger`: Sets up logging to console and file, with support for log levels and colors

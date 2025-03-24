@@ -1,7 +1,6 @@
 import toml
 import os
 
-
 class Config:
     _instance = None
 

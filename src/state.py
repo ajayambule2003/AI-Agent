@@ -14,7 +14,7 @@ class AgentStateModel(SQLModel, table=True):
     project: str
     state_stack_json: str
 
-
+ 
 class AgentState:
     def __init__(self):
         config = Config()

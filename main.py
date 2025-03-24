@@ -11,9 +11,9 @@ def main():
         if user_input.lower() == "bye":
             print("Simple AI Agent:", agent.respond(user_input)) 
             break
-        else: 
+         else: 
             print("Simple AI Agent:", agent.respond(user_input))  
-
-
+  
+  
 if __name__ == "__main__":
     main() 

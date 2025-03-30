@@ -6,7 +6,6 @@ from sqlmodel import Field, Session, SQLModel, create_engine
 from src.socket_instance import emit_agent
 from src.config import Config
 
-
 class AgentStateModel(SQLModel, table=True):
     __tablename__ = "agent_state"
 
@@ -14,7 +13,6 @@ class AgentStateModel(SQLModel, table=True):
     project: str
     state_stack_json: str
 
- 
 class AgentState:
     def __init__(self):
         config = Config()

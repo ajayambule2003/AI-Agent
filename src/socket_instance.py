@@ -3,8 +3,7 @@ from flask_socketio import SocketIO
 from src.logger import Logger
 socketio = SocketIO(cors_allowed_origins="*", async_mode="gevent")
 
-logger = Logger()
-
+logger = Logger() 
 
 def emit_agent(channel, content, log=True):
     try:

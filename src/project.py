@@ -63,8 +63,7 @@ class ProjectManager:
         new_message["message"] = message
         emit_agent("server-message", {"messages": new_message})
         self.add_message_to_project(project, new_message)
-   
-   
+ 
     def add_message_from_user(self, project: str, message: str):
         new_message = self.new_message()
         new_message["message"] = message

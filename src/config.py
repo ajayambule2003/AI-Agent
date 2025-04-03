@@ -2,7 +2,7 @@ import toml
 import os
 
 class Config:
-    _instance = None
+    _instance = None 
 
     def __new__(cls):
         if cls._instance is None:

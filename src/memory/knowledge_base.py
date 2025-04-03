@@ -6,7 +6,6 @@ from src.config import Config
 """
 TODO: The tag check should be a BM25 search, it's just a simple equality check now.
 """
-
 class Knowledge(SQLModel, table=True):
     id: Optional[int] = Field(default=None, primary_key=True)
     tag: str

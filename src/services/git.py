@@ -7,6 +7,7 @@ class Git:
     def clone(self, url, path):
         return GitPython.Repo.clone_from(url, path)
 
+
     def get_branches(self):
         return self.repo.branches
 

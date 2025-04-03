@@ -6,6 +6,7 @@ class GitHub:
     def __init__(self, token: str) -> None:
         self.token = token
 
+
     def get_repositories(self) -> List[str]:
         headers = {"Authorization": f"token {self.token}"}
         response = requests.get(

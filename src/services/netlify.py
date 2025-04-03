@@ -13,7 +13,7 @@ class Netlify:
         project_path = ProjectManager().get_project_path(project_name)
         
         site = self.netlify.site.create_site()
-        
+         
         print("===" * 10)
         print(site)
         

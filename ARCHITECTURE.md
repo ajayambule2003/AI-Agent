@@ -227,7 +227,7 @@ This allows aetherAI to perform actions like:
 
 Integrations are done in a modular way so that new services can be added easily.
 
-## Utilities  
+## Utilities 
  
  
 AetherAI makes use of several utility modules to support its functioning:  

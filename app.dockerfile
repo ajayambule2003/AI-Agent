@@ -9,6 +9,7 @@ USER root
 WORKDIR /home/nonroot/client
 RUN groupadd -r nonroot && useradd -r -g nonroot -d /home/nonroot/client -s /bin/bash nonroot
 
+
 # install node js 
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -y build-essential software-properties-common curl sudo wget git

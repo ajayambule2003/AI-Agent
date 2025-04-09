@@ -6,7 +6,6 @@ from urllib.parse import unquote
 from html import unescape
 import orjson
 
-
 class BingSearch:
     def __init__(self):
         self.config = Config()

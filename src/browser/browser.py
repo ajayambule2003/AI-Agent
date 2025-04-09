@@ -1,5 +1,5 @@
 import asyncio
-import base64
+import base64 
 import os
 
 from playwright.sync_api import sync_playwright, TimeoutError, Page

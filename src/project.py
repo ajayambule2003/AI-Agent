@@ -63,7 +63,8 @@ class ProjectManager:
         new_message["message"] = message
         emit_agent("server-message", {"messages": new_message})
         self.add_message_to_project(project, new_message)
- 
+  
+
     def add_message_from_user(self, project: str, message: str):
         new_message = self.new_message()
         new_message["message"] = message
@@ -77,6 +78,7 @@ class ProjectManager:
             if project_state:
                 return json.loads(project_state.message_stack_json)
             return None
+
 
     def get_latest_message_from_user(self, project: str):
         with Session(self.engine) as session:
@@ -126,6 +128,7 @@ class ProjectManager:
                         formatted_messages.append(f"User: {message['message']}")
 
             return formatted_messages
+ 
 
     def get_project_path(self, project: str):
         return os.path.join(self.project_path, project.lower().replace(" ", "-"))

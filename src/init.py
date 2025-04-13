@@ -9,7 +9,7 @@ def init_devika():
     logger.info("Initializing aetherAI...")
     logger.info("checking configurations...")
     
-    config = Config()
+    config = Config() 
   
     sqlite_db = config.get_sqlite_db()
     screenshots_dir = config.get_screenshots_dir()
@@ -25,8 +25,10 @@ def init_devika():
     os.makedirs(logs_dir, exist_ok=True)
 
     from src.bert.sentence import SentenceBert
+ 
+
 
     logger.info("Loading sentence-transformer BERT models...")
     prompt = "Light-weight keyword extraction exercise for BERT model loading.".strip()
     SentenceBert(prompt).extract_keywords()
-    logger.info("BERT model loaded successfully.")
+    logger.info("BERT model loaded  successfully.")

@@ -128,10 +128,10 @@ class ProjectManager:
                         formatted_messages.append(f"User: {message['message']}")
 
             return formatted_messages
- 
-
     def get_project_path(self, project: str):
         return os.path.join(self.project_path, project.lower().replace(" ", "-"))
+
+
 
     def project_to_zip(self, project: str):
         project_path = self.get_project_path(project)

@@ -135,10 +135,10 @@ class ProjectManager:
 
     def project_to_zip(self, project: str):
         project_path = self.get_project_path(project)
-        zip_path = f"{project_path}.zip"
+        zip_path = f"{project_path}.zip" 
 
         with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_DEFLATED) as zipf:
-            for root, dirs, files in os.walk(project_path):
+            for root, dirs, files in os.walk(project_path): 
                 for file in files:
                     relative_path = os.path.relpath(os.path.join(root, file), os.path.join(project_path, '..'))
                     zipf.write(os.path.join(root, file), arcname=relative_path)

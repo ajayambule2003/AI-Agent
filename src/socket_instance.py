@@ -7,7 +7,7 @@ logger = Logger()
 
 def emit_agent(channel, content, log=True):
     try:
-        socketio.emit(channel, content)
+        socketio.emit(channel, content) 
         if log:
             logger.info(f"SOCKET {channel} MESSAGE: {content}")
         return True

@@ -35,4 +35,5 @@ WORKDIR /home/nonroot/aetherAI
 ENV PATH="/home/nonroot/aetherAI/.venv/bin:$HOME/.cargo/bin:$PATH"
 RUN mkdir /home/nonroot/aetherAI/db
 
-ENTRYPOINT [ "python3", "-m", "aetherAI" ]
+ENTRYPOINT [ "python3", "-m", "aetherAI" ] 
+

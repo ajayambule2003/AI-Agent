@@ -11,7 +11,7 @@ const config = {
                 "2xl": "1400px"
             }
         },
-        extend: {
+        extend: { 
 			colors: {
                 'primary': 'var(--primary)',
                 'background': 'var(--background)',

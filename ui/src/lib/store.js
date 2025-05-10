@@ -10,7 +10,6 @@ function getItemFromLocalStorage(key, defaultValue) {
     return defaultValue;
 }
 
-// Helper function to handle subscription and local storage setting
 function subscribeAndStore(store, key, defaultValue) {
     store.set(getItemFromLocalStorage(key, defaultValue));
     store.subscribe(value => {

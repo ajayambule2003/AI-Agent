@@ -59,7 +59,7 @@ We welcome contributions to improve AetherAI! To get involved:
 
 ## 📜 License
 
-AetherAI is released under the [MIT License](https://opensource.org/licenses/MIT). See the `LICENSE` file for details. 
+AetherAI is released under the [MIT License](https://opensource.org/licenses/MIT). See the `LICENSE` file for details.  
 
 ---
 

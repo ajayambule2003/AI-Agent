@@ -22,9 +22,11 @@ const getApiBaseUrl = () => {
   }
 };
 
+
 export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || getApiBaseUrl();
 export const socket = io(API_BASE_URL, { autoConnect: false });
- 
+
+
 export async function checkServerStatus() {
   try{await fetch(`${API_BASE_URL}/api/status`) ; return true;}
   catch (error)  { 

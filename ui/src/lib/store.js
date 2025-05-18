@@ -15,9 +15,9 @@ function subscribeAndStore(store, key, defaultValue) {
     store.subscribe(value => {
         localStorage.setItem(key, value);
     });
-} 
+ }
 
-// Server related stores
+// Server related stores 
 export const serverStatus = writable(false);
 export const internet = writable(true);
 

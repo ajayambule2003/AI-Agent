@@ -4,10 +4,8 @@ import { twMerge } from "tailwind-merge";
 
 export function cn(...inputs) {
 	return twMerge(clsx(inputs));
-}
-
-
-export const flyAndScale = ( 
+} 
+export const flyAndScale = (
 	node,
 	params = { y: -8, x: 0, start: 0.95, duration: 150 }
 ) => {

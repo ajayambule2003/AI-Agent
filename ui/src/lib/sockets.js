@@ -1,13 +1,14 @@
-import { socket } from "./api";
-import { messages, agentState, isSending, tokenUsage } from "./store";
 import { toast } from "svelte-sonner";
 import { get } from "svelte/store";
+import { socket } from "./api";
+import { agentState, isSending, messages, tokenUsage } from "./store";
 
 let prevMonologue = null;
 
 export function initializeSockets() {
 
   socket.connect();
+  
   
   let state = get(agentState);
   prevMonologue = state?.internal_monologue;
@@ -17,7 +18,8 @@ export function initializeSockets() {
     console.log(msg);
   });
 
-  socket.on("server-message", function (data) {
+  
+  socket.on("server-message", function (data)  {
     console.log(data)
     messages.update((msgs) => [...msgs, data["messages"]]);
   });

@@ -45,9 +45,8 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 manager = ProjectManager()
 AgentState = AgentState()
-config = Config()
-logger = Logger()
-
+config = Config() 
+logger = Logger() 
 
 # initial socket
 @socketio.on('socket_connect')

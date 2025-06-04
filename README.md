@@ -9,7 +9,7 @@
 
 Leveraging **large language models, advanced planning algorithms, and web browsing capabilities**, AetherAI acts as an intelligent AI pair programmer that helps automate and accelerate software development tasks.
 
-### 🌟 Why AetherAI?
+### 🌟 Why AetherAI? 
 - Automate complex coding tasks with minimal guidance.
 - Research, plan, and execute software development workflows.
 - Enhance productivity with AI-assisted debugging and optimization.

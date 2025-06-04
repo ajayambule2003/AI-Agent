@@ -12,6 +12,6 @@ def main():
             print("Simple AI Agent:", agent.respond(user_input))
             break 
         else:
-            print("Simple AI Agent:", agent.respond(user_input))
+            print("Simple AI Agent:", agent.respond(user_input)) 
 if __name__ == "__main__":
     main()    

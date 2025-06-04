@@ -19,7 +19,7 @@ Leveraging **large language models, advanced planning algorithms, and web browsi
 
 ## 🛠️ Technologies Used
 
-AetherAI is built using a powerful tech stack to deliver intelligent, efficient, and scalable software development capabilities:
+AetherAI is built using a powerful tech stack to deliver intelligent, efficient, and scalable software development capabilities: 
 
 - **Programming Languages:** Python, JavaScript
 - **Frontend:** React.js (UI/UX components)

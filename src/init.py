@@ -4,7 +4,7 @@ from src.logger import Logger
 
 
 def init_devika():
-    logger = Logger() 
+    logger = Logger()  
 
     logger.info("Initializing aetherAI...")
     logger.info("checking configurations...")

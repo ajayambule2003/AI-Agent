@@ -12,7 +12,7 @@ Leveraging **large language models, advanced planning algorithms, and web browsi
 ### 🌟 Why AetherAI? 
 - Automate complex coding tasks with minimal guidance.
 - Research, plan, and execute software development workflows.
-- Enhance productivity with AI-assisted debugging and optimization. 
+- Enhance productivity with AI-assisted debugging and optimization.   
 - Open-source alternative to proprietary AI coding agents.
 
 > **Inspired by [Devin](https://www.cognition-labs.com/introducing-devin) by Cognition AI.** AetherAI aims to match and surpass Devin's performance on the [SWE-bench](https://www.swebench.com/) benchmarks.

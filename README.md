@@ -5,7 +5,7 @@
 
 ## 🚀 About
 
-**AetherAI** is an advanced AI-powered software engineer designed to understand high-level human instructions, break them down into structured steps, research relevant information, and generate functional code to achieve a given objective.
+**AetherAI** is an advanced AI-powered software engineer designed to understand high-level human instructions, break them down into structured steps, research relevant information, and generate functional code to achieve a given objective. 
 
 Leveraging **large language models, advanced planning algorithms, and web browsing capabilities**, AetherAI acts as an intelligent AI pair programmer that helps automate and accelerate software development tasks.
 

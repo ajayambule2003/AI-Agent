@@ -6,7 +6,7 @@ from src.services.utils import retry_wrapper, validate_responses
 from src.config import Config
 from src.llm import LLM
 
-PROMPT = open("src/agents/action/prompt.jinja2", "r").read().strip()
+PROMPT = open("src/agents/action/prompt.jinja2", "r").read().strip() 
 
 class Action:
     def __init__(self, base_model: str):

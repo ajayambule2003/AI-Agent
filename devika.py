@@ -47,9 +47,8 @@ manager = ProjectManager()
 AgentState = AgentState()
 config = Config()
 logger = Logger()
-
-
-# initial socket
+  
+# initial socket  
 @socketio.on('socket_connect')
 def test_connect(data):
     print("Socket connected :: ", data)

@@ -8,8 +8,7 @@ let prevMonologue = null;
 export function initializeSockets() {
 
   socket.connect();
-  
-  
+
   let state = get(agentState);
   prevMonologue = state?.internal_monologue;
 
@@ -17,8 +16,7 @@ export function initializeSockets() {
   socket.on("socket_response", function (msg) {
     console.log(msg);
   });
-
-  
+ 
   socket.on("server-message", function (data)  {
     console.log(data)
     messages.update((msgs) => [...msgs, data["messages"]]);

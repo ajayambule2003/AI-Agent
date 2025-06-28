@@ -8,14 +8,13 @@ function getItemFromLocalStorage(key, defaultValue) {
     }
     localStorage.setItem(key, defaultValue);
     return defaultValue;
-}
-
+} 
 function subscribeAndStore(store, key, defaultValue) {
     store.set(getItemFromLocalStorage(key, defaultValue));
     store.subscribe(value => {
         localStorage.setItem(key, value);
-    });
- }
+     });
+}
 
 // Server related stores 
 export const serverStatus = writable(false);

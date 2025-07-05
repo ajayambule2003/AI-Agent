@@ -7,7 +7,7 @@ class SimpleAIAgent:
         self.utils = Utils()
         self.responses = {
             "hello": "Hello! How can I help you?",
-            "how are you": "I'm just a program, but I'm doing great! How about you?",
+            "how are you": "I'm just a program, but I'm doing great! How about you?", 
             "what's your name": "I'm a simple AI agent.",
             "bye": "Goodbye! Have a great day!",
             "tell me a joke": self.utils.tell_joke,

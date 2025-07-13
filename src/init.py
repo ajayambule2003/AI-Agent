@@ -7,7 +7,7 @@ def init_devika():
     logger = Logger()  
 
     logger.info("Initializing aetherAI...")
-    logger.info("checking configurations...")
+    logger.info("checking configurations...") 
     
     config = Config() 
   

@@ -9,7 +9,7 @@ import os
  
 project_bp = blueprints.Blueprint("project", __name__)
 
-logger = Logger()
+logger = Logger() 
 manager = ProjectManager()
 
 

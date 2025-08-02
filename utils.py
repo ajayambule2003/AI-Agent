@@ -6,7 +6,7 @@ class Utils:
         try:
             return str(eval(expression))
         except:
-            return "Sorry, I couldn't calculate that."
+            return "Sorry, I couldn't calculate that." 
 
     @staticmethod
     def tell_joke():

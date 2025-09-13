@@ -10,4 +10,4 @@ class Memory:
 
 
     def clear_memory(self): 
-        self.history = []
+        self.history = [] 

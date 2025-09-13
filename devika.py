@@ -48,12 +48,11 @@ AgentState = AgentState()
 config = Config()
 logger = Logger()
   
-# initial socket  
+# initial socket   
 @socketio.on('socket_connect')
 def test_connect(data):
     print("Socket connected :: ", data)
     emit_agent("socket_response", {"data": "Server Connected"})
-
 
 @app.route("/api/data", methods=["GET"])
 @route_logger(logger)

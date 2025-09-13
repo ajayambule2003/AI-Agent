@@ -6,8 +6,6 @@ class Memory:
         self.history.append((user_input, response)) 
   
     def get_history(self):
-        return self.history 
-
-
-    def clear_memory(self): 
-        self.history = []
+        return self.history
+    def clear_memory(self):  
+        self.history = [] 

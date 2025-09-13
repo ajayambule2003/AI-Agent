@@ -16,7 +16,7 @@ class SimpleAIAgent:
             "clear memory": self.memory.clear_memory,
             "default": "I'm not sure how to respond to that."
         }
-
+  
     def respond(self, user_input):
         user_input = user_input.lower().strip()
         response = self.responses.get(user_input, self.responses["default"])

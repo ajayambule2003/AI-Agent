@@ -6,10 +6,10 @@ class Utils:
         try:
             return str(eval(expression))
         except:
-            return "Sorry, I couldn't calculate that."
+            return "Sorry, I couldn't calculate that."  
 
     @staticmethod
-    def tell_joke():
+    def tell_joke(): 
         jokes = [
             "Why don't scientists trust atoms? Because they make up everything!",
             "Why did the scarecrow win an award? Because he was outstanding in his field!",

@@ -7,9 +7,9 @@ monkey.patch_all()
 from src.init import init_aetherAI
 aetherAI()
  
-
+ 
 from flask import Flask, request, jsonify, send_file 
-from flask_cors import CORS
+from flask_cors import CORS 
 from src.socket_instance import socketio, emit_agent
 import os
 import logging
@@ -48,14 +48,14 @@ AgentState = AgentState()
 config = Config()
 logger = Logger()
   
-# initial socket   
+# initial socket    
 @socketio.on('socket_connect')
 def test_connect(data):
     print("Socket connected :: ", data)
     emit_agent("socket_response", {"data": "Server Connected"})
 
 @app.route("/api/data", methods=["GET"])
-@route_logger(logger)
+@route_logger(logger) 
 def data():
     project = manager.get_project_list()
     models = LLM().list_models()

@@ -3,15 +3,15 @@ from utils import Utils
 
 class SimpleAIAgent:
     def __init__(self):
-        self.memory = Memory()
+        self.memory = Memory() 
         self.utils = Utils()
         self.responses = {
             "hello": "Hello! How can I help you?",
-            "how are you": "I'm just a program, but I'm doing great! How about you?",
+            "how are you": "I'm just a program, but I'm doing great! How about you?",  
             "what's your name": "I'm a simple AI agent.",
             "bye": "Goodbye! Have a great day!",
             "tell me a joke": self.utils.tell_joke,
-            "calculate": lambda expr: self.utils.calculate(expr),
+            "calculate": lambda expr: self.utils.calculate(expr), 
             "history": lambda: "\n".join([f"You: {i[0]}\nAgent: {i[1]}" for i in self.memory.get_history()]),
             "clear memory": self.memory.clear_memory,
             "default": "I'm not sure how to respond to that."

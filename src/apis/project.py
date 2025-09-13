@@ -6,10 +6,10 @@ from src.project import ProjectManager
 from ..state import AgentState
  
 import os
-
+ 
 project_bp = blueprints.Blueprint("project", __name__)
 
-logger = Logger()
+logger = Logger() 
 manager = ProjectManager()
 
 

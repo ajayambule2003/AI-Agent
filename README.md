@@ -6,13 +6,13 @@ AI-Agent is an intelligent system designed to perform tasks autonomously using m
 ## Features
 - Autonomous task execution
 - Machine learning integration
-- API support for seamless interactions
-- Customizable workflows
-- Real-time data processing 
-
-## Installation
+- API support for seamless interactions 
+- Customizable workflows 
+- Real-time data processing  
+  
+## Installation 
 1. Clone the repository:
-   ```bash
+   ```bash 
    git clone https://github.com/ajayambule2003_/AI-Agent.git
 
 <<<<<<< HEAD

@@ -8,7 +8,7 @@ from ..state import AgentState
 import os
  
 project_bp = blueprints.Blueprint("project", __name__)
-
+ 
 logger = Logger() 
 manager = ProjectManager()
 

@@ -15,7 +15,7 @@ class Config:
         # If the config file doesn't exist, copy from the sample
         if not os.path.exists("config.toml"):
             with open("sample.config.toml", "r") as f_in, open("config.toml", "w+") as f_out:
-                f_out.write(f_in.read())
+                f_out.write(f_in.read()) 
                 f_out.seek(0)
                 self.config = toml.load(f_out)
         else:

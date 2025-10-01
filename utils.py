@@ -5,7 +5,7 @@ class Utils:
     def calculate(expression):
         try:
             return str(eval(expression))
-        except:
+        except: 
             return "Sorry, I couldn't calculate that."  
 
     @staticmethod

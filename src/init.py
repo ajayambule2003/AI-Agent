@@ -13,7 +13,7 @@ def init_devika():
   
     sqlite_db = config.get_sqlite_db()
     screenshots_dir = config.get_screenshots_dir()
-    pdfs_dir = config.get_pdfs_dir()
+    pdfs_dir = config.get_pdfs_dir() 
     projects_dir = config.get_projects_dir()
     logs_dir = config.get_logs_dir()
 

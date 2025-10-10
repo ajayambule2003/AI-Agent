@@ -7,7 +7,7 @@ AI-Agent is an intelligent system designed to perform tasks autonomously using m
 - Autonomous task execution
 - Machine learning integration
 - API support for seamless interactions
-- Customizable workflows 
+- Customizable workflows  
 - Real-time data processing  
   
 ## Installation  

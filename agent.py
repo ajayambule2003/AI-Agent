@@ -5,7 +5,7 @@ class SimpleAIAgent:
     def __init__(self):
         self.memory = Memory() 
         self.utils = Utils()
-        self.responses = {
+        self.responses = { 
             "hello": "Hello! How can I help you?",
             "how are you": "I'm just a program, but I'm doing great! How about you?",   
             

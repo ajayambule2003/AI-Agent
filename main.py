@@ -2,7 +2,7 @@ from agent import SimpleAIAgent
 
 def main():
     agent = SimpleAIAgent()
-    print("Simple AI Agent: Hi! Type something to talk to me. Type 'bye' to exit.")  
+    print("Simple AI Agent: Hi! Type something to talk to me. Type 'bye' to exit.")   
  
 # <<<<<<< HEAD
     while True:

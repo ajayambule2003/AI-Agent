@@ -12,7 +12,7 @@ class Projects(SQLModel, table=True):
     project: str
     message_stack_json: str 
  
-
+ 
 class ProjectManager:
     def __init__(self):
         config = Config()

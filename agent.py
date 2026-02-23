@@ -9,7 +9,7 @@ class SimpleAIAgent:
             "hello": "Hello! How can I help you?",
             "how are you": "I'm just a program, but I'm doing great! How about you?", 
             
-            "what's your name": "I'm a simple AI agent.",
+            "what's your name": "I'm a simple AI agent.", 
             "bye": "Goodbye! Have a great day!",
             "tell me a joke": self.utils.tell_joke,
             "calculate": lambda expr: self.utils.calculate(expr), 

@@ -12,7 +12,7 @@ class AgentStateModel(SQLModel, table=True):
     id: Optional[int] = Field(default=None, primary_key=True)
     project: str
     state_stack_json: str 
-class AgentState:
+class AgentState: 
     def __init__(self):
         config = Config()
         sqlite_path = config.get_sqlite_db()

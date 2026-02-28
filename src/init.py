@@ -10,7 +10,7 @@ def init_devika():
     logger.info("checking configurations...") 
     
     config = Config() 
-  
+   
     sqlite_db = config.get_sqlite_db()
     screenshots_dir = config.get_screenshots_dir()
     pdfs_dir = config.get_pdfs_dir() 

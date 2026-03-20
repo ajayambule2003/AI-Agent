@@ -9,3 +9,4 @@ class Memory:
         return self.history 
     def clear_memory(self):  
         self.history = [] 
+

@@ -5,7 +5,7 @@ socketio = SocketIO(cors_allowed_origins="*", async_mode="gevent")
 
 logger = Logger() 
 
-def emit_agent(channel, content, log=True):
+def emit_agent(channel, content, log=True): 
     try:
         socketio.emit(channel, content)  
         if log: 

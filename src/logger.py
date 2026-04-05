@@ -3,7 +3,7 @@ from functools import wraps
 from fastlogging import LogInit
 from flask import request
 
-from src.config import Config
+from src.config import Config 
 class Logger:
     def __init__(self, filename="aetherAI_agent.log"):
         config = Config() 

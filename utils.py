@@ -2,7 +2,7 @@ import random
 
 class Utils:
     @staticmethod
-    def calculate(expression):
+    def calculate(expression): 
         try:
             return str(eval(expression))
         except:  

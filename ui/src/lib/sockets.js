@@ -7,7 +7,7 @@ let prevMonologue = null;
 
 export function initializeSockets() {
 
-  socket.connect();
+  socket.connect(); 
 
   let state = get(agentState);
   prevMonologue = state?.internal_monologue;

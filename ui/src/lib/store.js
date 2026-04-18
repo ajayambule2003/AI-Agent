@@ -6,7 +6,7 @@ function getItemFromLocalStorage(key, defaultValue) {
     if (storedValue) {
         return storedValue;
     }
-    localStorage.setItem(key, defaultValue);
+    localStorage.setItem(key, defaultValue); 
     return defaultValue;
 } 
 function subscribeAndStore(store, key, defaultValue) {

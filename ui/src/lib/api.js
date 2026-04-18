@@ -8,7 +8,7 @@ import {
   projectList,
   searchEngineList,
 } from "./store";
-
+ 
 const getApiBaseUrl = () => {
   if (typeof window !== 'undefined') {
     const host = window.location.hostname;

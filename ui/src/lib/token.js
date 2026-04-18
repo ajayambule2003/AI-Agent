@@ -7,7 +7,7 @@ const encoding = new Tiktoken(
   cl100k_base.pat_str
 ); 
 export function calculateTokens(text) {
-  const tokens = encoding.encode(text);
+  const tokens = encoding.encode(text);  
   return tokens.length;
 }
 

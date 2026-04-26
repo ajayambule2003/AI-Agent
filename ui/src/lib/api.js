@@ -16,7 +16,7 @@ const getApiBaseUrl = () => {
       return 'http://127.0.0.1:1337';
     } else {
       return `http://${host}:1337`;
-    }
+    } 
   } else {
     return 'http://127.0.0.1:1337';
   }

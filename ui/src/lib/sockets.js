@@ -12,7 +12,7 @@ export function initializeSockets() {
   let state = get(agentState);
   prevMonologue = state?.internal_monologue;
 
-  socket.emit("socket_connect", { data: "frontend connected!" });
+  socket.emit("socket_connect", { data: "frontend connected!" }); 
   socket.on("socket_response", function (msg) {
     console.log(msg);
   });

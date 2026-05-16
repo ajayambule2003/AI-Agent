@@ -3,7 +3,7 @@ import git as GitPython
 class Git:
     def __init__(self, path):
         self.repo = GitPython.Repo(path)
-
+ 
     def clone(self, url, path):
         return GitPython.Repo.clone_from(url, path)
 

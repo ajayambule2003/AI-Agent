@@ -7,7 +7,7 @@ class Netlify:
     def __init__(self):
         config = Config()
         api_key = config.get_netlify_api_key()
-        self.netlify = NetlifyPy(access_token=api_key)
+        self.netlify = NetlifyPy(access_token=api_key) 
 
     def deploy(self, project_name: str):
         project_path = ProjectManager().get_project_path(project_name)

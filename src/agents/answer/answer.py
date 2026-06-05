@@ -8,7 +8,7 @@ from src.llm import LLM
 
 PROMPT = open("src/agents/answer/prompt.jinja2", "r").read().strip()
 
-class Answer:
+class Answer: 
     def __init__(self, base_model: str):
         config = Config()
         self.project_dir = config.get_projects_dir()

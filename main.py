@@ -6,7 +6,7 @@ def main():
  
 # <<<<<<< HEAD
     while True: 
-        user_input = input("You: ") 
+        user_input = input("You: ")  
         if user_input.lower() == "bye":  
             print("Simple AI Agent:", agent.respond(user_input)) 
             break

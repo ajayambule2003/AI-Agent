@@ -7,7 +7,7 @@ class Claude:
         config = Config()
         api_key = config.get_claude_api_key()
         self.client = Anthropic(
-            api_key=api_key,
+            api_key=api_key, 
         )
 
     def inference(self, model_id: str, prompt: str) -> str:

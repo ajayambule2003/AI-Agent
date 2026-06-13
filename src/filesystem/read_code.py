@@ -10,7 +10,7 @@ class ReadCode:
         config = Config()
         project_path = config.get_projects_dir()
         self.directory_path = os.path.join(project_path, project_name.lower().replace(" ", "-")) 
-
+ 
     def read_directory(self):
         files_list = []
         for root, _dirs, files in os.walk(self.directory_path):

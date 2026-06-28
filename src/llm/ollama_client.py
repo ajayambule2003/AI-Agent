@@ -12,7 +12,7 @@ class Ollama:
             self.models = self.client.list()["models"]
             log.info("Ollama available")
         except:
-            self.client = None
+            self.client = None 
             log.warning("Ollama not available")
             log.warning("run ollama server to use ollama models otherwise use API models")
 

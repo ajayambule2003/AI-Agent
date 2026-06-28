@@ -7,7 +7,7 @@ from src.config import Config
 class MistralAi:
     def __init__(self):
         config = Config()
-        api_key = config.get_mistral_api_key()  # Retrieve API key using the existing Config class
+        api_key = config.get_mistral_api_key()  # Retrieve API key using the existing Config class 
         self.client = Mistral(api_key=api_key)  # Initialize Mistral client with the new class
 
     def inference(self, model_id: str, prompt: str) -> str:

@@ -5,7 +5,7 @@ from typing import Optional
 from sqlmodel import Field, Session, SQLModel, create_engine
 from src.socket_instance import emit_agent 
 from src.config import Config  
-
+ 
 class AgentStateModel(SQLModel, table=True): 
     __tablename__ = "agent_state"
  

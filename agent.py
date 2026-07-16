@@ -2,7 +2,7 @@ from memory import Memory
 from utils import Utils
 
 class SimpleAIAgent:
-    def __init__(self):
+    def __init__(self): 
         self.memory = Memory() 
         self.utils = Utils()  
         self.responses = {

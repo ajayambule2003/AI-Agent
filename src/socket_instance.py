@@ -9,7 +9,7 @@ def emit_agent(channel, content, log=True):
     try:
         socketio.emit(channel, content)  
         if log: 
-            logger.info(f"SOCKET {channel} MESSAGE: {content}")
+            logger.info(f"SOCKET {channel} MESSAGE: {content}") 
         return True
     except Exception as e:
         logger.error(f"SOCKET {channel} ERROR: {str(e)}")

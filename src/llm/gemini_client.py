@@ -9,7 +9,7 @@ class Gemini:
         api_key = config.get_gemini_api_key()
         genai.configure(api_key=api_key)
 
-    def inference(self, model_id: str, prompt: str) -> str:
+    def inference(self, model_id: str, prompt: str) -> str: 
         config = genai.GenerationConfig(temperature=0)
         model = genai.GenerativeModel(model_id, generation_config=config)
         # Set safety settings for the request

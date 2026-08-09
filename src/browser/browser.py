@@ -4,7 +4,7 @@ import os
 
 from playwright.sync_api import sync_playwright, TimeoutError, Page
 from playwright.async_api import async_playwright, TimeoutError
-from markdownify import markdownify as md
+from markdownify import markdownify as md 
 from pdfminer.high_level import extract_text
 from src.socket_instance import emit_agent
 from src.config import Config

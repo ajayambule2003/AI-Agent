@@ -11,7 +11,7 @@ from src.config import Config
 from src.state import AgentState
 from src.llm import LLM
 
-prompt_template = """
+prompt_template = """ 
 You are an agent controlling a browser. You are given:
 
 	(1) an objective that you are trying to achieve

@@ -11,7 +11,7 @@ class BingSearch:
         self.config = Config()
         self.bing_api_key = self.config.get_bing_api_key()
         self.bing_api_endpoint = self.config.get_bing_api_endpoint()
-        self.query_result = None
+        self.query_result = None 
 
     def search(self, query):
         headers = {"Ocp-Apim-Subscription-Key": self.bing_api_key}

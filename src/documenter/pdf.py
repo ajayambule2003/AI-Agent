@@ -6,7 +6,7 @@ from xhtml2pdf import pisa
 from src.config import Config
  
 class PDF:
-    def __init__(self):
+    def __init__(self): 
         config = Config()
         self.pdf_path = config.get_pdfs_dir()
     

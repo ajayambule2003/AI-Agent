@@ -5,7 +5,7 @@ from src.config import Config
 """
 TODO: Replace this with `code2prompt` - https://github.com/mufeedvh/code2prompt
 """
-class ReadCode:
+class ReadCode: 
     def __init__(self, project_name: str):
         config = Config()
         project_path = config.get_projects_dir()

@@ -8,7 +8,7 @@ class Utils:
         except:    
             return "Sorry, I couldn't calculate that."   
  
-    @staticmethod
+    @staticmethod 
     def tell_joke(): 
         jokes = [
             "Why don't scientists trust atoms? Because they make up everything!",

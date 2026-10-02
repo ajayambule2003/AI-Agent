@@ -2,7 +2,7 @@ class Memory:
     def __init__(self):
         self.history = []
 
-    def add_interaction(self, user_input, response):
+    def add_interaction(self, user_input, response): 
         self.history.append((user_input, response)) 
    
     def get_history(self): 

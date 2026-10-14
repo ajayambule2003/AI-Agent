@@ -3,7 +3,7 @@ import os
 from src.config import Config
 
 """
-TODO: Replace this with `code2prompt` - https://github.com/mufeedvh/code2prompt
+TODO: Replace this with `code2prompt` - https://github.com/mufeedvh/code2prompt 
 """
 class ReadCode: 
     def __init__(self, project_name: str):

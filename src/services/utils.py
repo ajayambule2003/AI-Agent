@@ -8,7 +8,7 @@ from src.socket_instance import emit_agent
 
  
 def retry_wrapper(func):
-    def wrapper(*args, **kwargs): 
+    def wrapper(*args, **kwargs):  
         max_tries = 5 
         tries = 0
         while tries < max_tries:

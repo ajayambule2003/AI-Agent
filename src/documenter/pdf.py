@@ -8,7 +8,7 @@ from src.config import Config
 class PDF:
     def __init__(self): 
         config = Config()
-        self.pdf_path = config.get_pdfs_dir()
+        self.pdf_path = config.get_pdfs_dir() 
     
     def markdown_to_pdf(self, markdown_string, project_name):
         html_string = markdown(markdown_string)
